@@ -2,7 +2,13 @@
 
 The `tailwindcss` gem helps you to easily install the Tailwind CSS framework by using WebPack and the `webpacker` gem.
 
+Note: this is a fork of [the original](https://github.com/IcaliaLabs/tailwindcss-rails) which seems unmaintained at the moment. It does three things differently:
 
+1. Updates to Tailwind CSS 2.1.2
+2. Syncs the gem version with the version of Tailwind CSS
+3. Changes the gem dependency to `railties ~> 6` to force working with modern Rails
+
+If you're not already locked into this gem, you should consider a [the better maintained official Rails tailwindcss-rails gem](https://github.com/rails/tailwindcss-rails) ... which I didn't discover until I'd cleaned this up already, so I'll share and immediately abandon them. I'm not even cleaning up the rest of this README.
 
 ## Table of contents
 
